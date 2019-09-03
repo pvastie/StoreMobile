@@ -1,4 +1,9 @@
 package models;
 
-public class Client {
+import com.parse.ParseClassName;
+import com.parse.ParseObject;
+
+
+@ParseClassName( "Client" )
+public class Client extends ParseObject {
 }

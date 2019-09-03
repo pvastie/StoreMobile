@@ -1,4 +1,8 @@
 package models;
 
-public class Commande {
+import com.parse.ParseClassName;
+import com.parse.ParseObject;
+
+@ParseClassName( "Order" )
+public class Commande extends ParseObject {
 }

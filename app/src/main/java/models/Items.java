@@ -1,4 +1,9 @@
 package models;
 
-public class Items {
+import com.parse.ParseClassName;
+import com.parse.ParseObject;
+
+
+@ParseClassName( "Product" )
+public class Items extends ParseObject {
 }
